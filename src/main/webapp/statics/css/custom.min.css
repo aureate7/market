@@ -1,3 +1,15 @@
+.glass-background {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+    z-index: 1;
+}
+
 .left_col {
     background: #2A3F54
 }
@@ -211,11 +223,21 @@
 
 .nav_menu {
     float: left;
-    background: #EDEDED;
+    /*background: #EDEDED;*/
     border-bottom: 1px solid #D9DEE4;
     margin-bottom: 10px;
     width: 100%;
-    position: relative
+    /*position: relative*/
+
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    padding: 8px; /* 调整高度 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+    z-index: 3;
 }
 
 @media (min-width: 480px) {
@@ -241,6 +263,15 @@
 
 body .container.body .right_col {
     background: #F7F7F7
+    /*background: rgba(255, 255, 255, 0.8);*/
+    /*border-radius: 10px;*/
+    /*padding: 20px;*/
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+    /*!*backdrop-filter: blur(10px);*!*/
+    /*!*-webkit-backdrop-filter: blur(10px);*!*/
+    /*border: 1px solid rgba(255, 255, 255, 0.3);*/
+    /*position: relative;*/
+    /*z-index: 1;*/
 }
 
 .nav-md .container.body .right_col {
@@ -583,15 +614,42 @@ a:hover, a:focus {
 
 .top_nav .dropdown-menu li {
     width: 100%
+
+    /*border-radius: 10px;*/
+    /*padding: 20px;*/
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+    /*backdrop-filter: blur(10px);*/
+    /*-webkit-backdrop-filter: blur(10px);*/
+    /*border: 1px solid rgba(255, 255, 255, 0.3);*/
+    /*position: relative;*/
+    /*z-index: 4;*/
 }
 
 .top_nav .dropdown-menu li a {
     width: 100%;
     padding: 12px 20px
+
+    /*border-radius: 10px;*/
+    /*!*padding: 20px;*!*/
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+    /*backdrop-filter: blur(10px);*/
+    /*-webkit-backdrop-filter: blur(10px);*/
+    /*border: 1px solid rgba(255, 255, 255, 0.3);*/
+    /*position: relative;*/
+    /*z-index: 4;*/
 }
 
 .top_nav li a i {
     font-size: 15px
+
+    /*border-radius: 10px;*/
+    /*padding: 20px;*/
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+    /*backdrop-filter: blur(10px);*/
+    /*-webkit-backdrop-filter: blur(10px);*/
+    /*border: 1px solid rgba(255, 255, 255, 0.3);*/
+    /*position: relative;*/
+    /*z-index: 4;*/
 }
 
 .navbar-static-top {

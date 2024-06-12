@@ -27,7 +27,7 @@ function get(id) {
 <body class="nav-md">
     <div class="container body" style="overflow-x: hidden;overflow-y: hidden; ">
       <div class="main_container">
-        <div class="col-md-3 left_col">
+        <div class="col-md-3 left_col">  <!-- 左侧导航栏内容Start -->
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
               <a href="${pageContext.request.contextPath }/staff/flatform/main" class="site_title"><i class="fa fa-paw"></i> <span>Welcome!</span></a>
@@ -99,7 +99,7 @@ function get(id) {
             </div>
             <!-- /menu footer buttons -->
           </div>
-        </div>
+        </div> <!-- 左侧导航栏内容End -->
 		<div class="top_nav">
           <div class="nav_menu">
             <nav>
