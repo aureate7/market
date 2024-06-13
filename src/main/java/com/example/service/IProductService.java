@@ -1,7 +1,7 @@
 package com.example.service;
 /**
- * @Author Binvor
- * @Date 2019年3月18日下午2:18:57
+ * @Author aureate7
+ * @Date 2024年6月4日下午2:18:57
  * @Des 商品接口类
  */
 

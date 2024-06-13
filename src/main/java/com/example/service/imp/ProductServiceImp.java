@@ -11,8 +11,8 @@ import com.example.entity.ProductExample;
 import com.example.service.IProductService;
 
 /**
- * @Author Binvor
- * @Date 2019年3月18日下午2:28:45
+ * @Author aureate7
+ * @Date 2024年6月5日下午2:28:45
  * @Des 商品信息实现类
  */
 @Service

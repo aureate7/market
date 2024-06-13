@@ -7,8 +7,8 @@ import org.apache.ibatis.annotations.Param;
 import com.example.entity.Staff;
 
 /**
- * @Author Binvor
- * @Date 2019年3月15日下午1:58:01
+ * @Author aureate7
+ * @Date 2024年6月4日下午1:58:01
  * @Des 
  */
 public interface IStaffService {

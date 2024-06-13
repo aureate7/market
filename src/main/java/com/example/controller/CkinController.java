@@ -21,8 +21,8 @@ import com.example.entity.Ckin;
 import com.example.service.imp.CkinServiceImp;
 
 /**
- * @Author Binvor
- * @Date 2019年3月27日下午3:28:51
+ * @Author aureate7
+ * @Date 2024年6月13日上午9:18:51
  * @Des 进货管理
  */
 @Controller

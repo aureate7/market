@@ -10,8 +10,8 @@ import com.example.entity.Type;
 import com.example.service.ITypeService;
 
 /**
- * @Author Binvor
- * @Date 2019年3月25日下午2:26:32
+ * @Author aureate7
+ * @Date 2024年6月9日下午2:26:32
  * @Des 类别管理实现
  */
 @Service

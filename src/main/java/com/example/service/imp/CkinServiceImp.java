@@ -10,8 +10,8 @@ import com.example.entity.Ckin;
 import com.example.service.ICkinService;
 
 /**
- * @Author Binvor
- * @Date 2019年3月27日下午3:25:06
+ * @Author aureate7
+ * @Date 2024年6月4日下午3:25:06
  * @Des 
  */
 @Service

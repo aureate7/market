@@ -20,8 +20,8 @@ import com.example.entity.Sale;
 import com.example.service.imp.SaleServiceImp;
 
 /**
- * @Author Binvor
- * @Date 2019年4月19日下午1:58:43
+ * @Author aureate7
+ * @Date 2024年6月13日下午1:58:43
  * @Des 
  */
 @Controller

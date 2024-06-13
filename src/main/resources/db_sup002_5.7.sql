@@ -11,7 +11,7 @@
  Target Server Version : 50732
  File Encoding         : 65001
 
- Date: 11/07/2021 21:39:04
+ Date: 12/06/2024 21:39:04
 */
 
 SET NAMES utf8mb4;
@@ -146,7 +146,7 @@ CREATE TABLE `manager`  (
 -- ----------------------------
 -- Records of manager
 -- ----------------------------
-INSERT INTO `manager` VALUES ('15203111', '贺彬华', '362430199712207275', '男', '13517064592', '管理员', '1234');
+INSERT INTO `manager` VALUES ('15203110', '莫金宗', '441224200207020019', '男', '13827595226', '管理员', '1234');
 
 -- ----------------------------
 -- Table structure for product
@@ -221,10 +221,8 @@ CREATE TABLE `staff`  (
 -- ----------------------------
 -- Records of staff
 -- ----------------------------
-INSERT INTO `staff` VALUES ('15203122', '贺彬华', '362430199712207275', '男', '13517064592', '普通员工', '123456');
-INSERT INTO `staff` VALUES ('15203123', '贺彬华', '234123412341234', '142', '13519081234', '普通员工', '123456');
-INSERT INTO `staff` VALUES ('15203124', '小贺同学', '362430199712207275', '男', '13517064592', '普通员工', '123456');
-INSERT INTO `staff` VALUES ('154203129', '小贺同学', '362430199712207275', '男', '13517064592', '普通员工', '1234');
+INSERT INTO `staff` VALUES ('15203122', '莫金宗', '441224200207020019', '男', '13827595226', '普通员工', '123456');
+INSERT INTO `staff` VALUES ('15203124', '小莫同学', '441224200207020019', '男', '13226450134', '普通员工', '123456');
 
 -- ----------------------------
 -- Table structure for supply
@@ -243,9 +241,9 @@ CREATE TABLE `supply`  (
 -- ----------------------------
 -- Records of supply
 -- ----------------------------
-INSERT INTO `supply` VALUES (16, '百果园', '13517064592', '某总', '吉安永新', '3078343267@qq.com');
-INSERT INTO `supply` VALUES (17, '恰恰', '13517064592', '贺天', '吉安永新', '3078343267@qq.com');
-INSERT INTO `supply` VALUES (18, '花鸟市场', NULL, NULL, NULL, NULL);
+INSERT INTO `supply` VALUES (16, '百果园', '13226450134', '皮总', '广州番禺', '1306625167@qq.com');
+INSERT INTO `supply` VALUES (17, '恰恰食品', '13226450134', '张之臻', 'aaa', 'qiaqia@126.com');
+INSERT INTO `supply` VALUES (18, '城西市场', '12345678', NULL, NULL, NULL);
 INSERT INTO `supply` VALUES (19, '怡宝', NULL, NULL, NULL, NULL);
 
 -- ----------------------------

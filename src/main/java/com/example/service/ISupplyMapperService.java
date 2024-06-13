@@ -7,8 +7,8 @@ import org.apache.ibatis.annotations.Param;
 import com.example.entity.Supply;
 
 /**
- * @Author Binvor
- * @Date 2019年3月27日上午10:16:56
+ * @Author aureate7
+ * @Date 2024年6月4日上午10:16:56
  * @Des 
  */
 public interface ISupplyMapperService {

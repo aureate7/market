@@ -30,14 +30,17 @@ function get(id) {
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="${pageContext.request.contextPath }/manage/flatform/main" class="site_title"><i class="fa fa-paw"></i> <span>Welcome!</span></a>
+              <a href="${pageContext.request.contextPath }/manage/flatform/main" class="site_title">
+<%--                <i class="fa fa-paw"></i> --%>
+      <img src="${pageContext.request.contextPath }/statics/images/logo.png" alt="Logo" style="height: 50px; margin-right: 10px;">
+                <span>Welcome!</span></a>
             </div>
 
             <div class="clearfix"></div>
 
             <!-- menu profile quick info -->
             <div class="profile clearfix">
-               	<h3 class="text-info">用心与你沟通</h3>
+               	<h3 class="text-info">你好.jpg</h3>
             </div>
 
             <br />
@@ -108,7 +111,7 @@ function get(id) {
           </div>
         </div>
 		<div class="top_nav">
-          <div class="nav_menu">
+          <div class="nav_menu" style="position: relative; z-index: 10000;">
             <nav>
               <div class="nav toggle">
                 <a id="menu_toggle"><i class="fa fa-bars"></i></a>
@@ -121,7 +124,7 @@ function get(id) {
                     <span class="glyphicon glyphicon-user" style="display:none" id="staffid">${managerSession.managerid}</span>
                     <span class=" fa fa-angle-down"></span>
                   </a>
-                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                  <ul class="dropdown-menu dropdown-usermenu pull-right" style="position: relative; z-index: 10000;">
                     <li><a onclick="get(${managerSession.managerid})"> 基本信息</a></li>
                     <li>
                       <a onclick="update(${managerSession.managerid})">修改资料</a>

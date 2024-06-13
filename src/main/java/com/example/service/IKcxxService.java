@@ -7,8 +7,8 @@ import org.apache.ibatis.annotations.Param;
 import com.example.entity.Kcxx;
 
 /**
- * @Author Binvor
- * @Date 2019年3月28日上午10:51:40
+ * @Author aureate7
+ * @Date 2024年6月4日上午10:51:40
  * @Des 库存信息
  */
 public interface IKcxxService {

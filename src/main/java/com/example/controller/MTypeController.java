@@ -17,8 +17,8 @@ import com.example.entity.Type;
 import com.example.service.imp.TypeServiceImp;
 
 /**
- * @Author Binvor
- * @Date 2019年4月19日下午1:48:07
+ * @Author aureate7
+ * @Date 2024年6月13日下午1:48:07
  * @Des 
  */
 @Controller

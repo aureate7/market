@@ -11,7 +11,12 @@
 }
 
 .left_col {
-    background: #2A3F54
+    background: rgba(42, 63, 84, 0.2); /* 半透明深色背景色 */
+    border-radius: 10px;
+    overflow: hidden; /* 确保内容被裁剪 */
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+    border-right: 1px solid rgba(255, 255, 255, 0.1); /* 边框 */
 }
 
 .nav-sm .container.body .col-md-3.left_col {
@@ -19,7 +24,7 @@
     width: 70px;
     padding: 0;
     z-index: 9999;
-    position: absolute
+    position: absolute;
 }
 
 .nav-sm .container.body .col-md-3.left_col.menu_fixed {
@@ -279,11 +284,12 @@ body .container.body .right_col {
     margin-left: 230px
 }
 
-.nav_title {
+.nav_title { /* 左上角logo */
     width: 230px;
     float: left;
     background: #2A3F54;
-    border-radius: 0;
+    /*background: #00aeef;*/
+    border-radius: 10px;
     height: 57px
 }
 
@@ -613,30 +619,31 @@ a:hover, a:focus {
 }
 
 .top_nav .dropdown-menu li {
-    width: 100%
+    /*width: 100%*/
 
-    /*border-radius: 10px;*/
-    /*padding: 20px;*/
-    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
-    /*backdrop-filter: blur(10px);*/
-    /*-webkit-backdrop-filter: blur(10px);*/
-    /*border: 1px solid rgba(255, 255, 255, 0.3);*/
-    /*position: relative;*/
-    /*z-index: 4;*/
+    width: 100%;
+    position: relative;
+    z-index: 4;
 }
 
 .top_nav .dropdown-menu li a {
     width: 100%;
-    padding: 12px 20px
+    display: block;
+    padding: 12px 20px;
+    color: #333;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease; /* 过渡效果 */
+}
 
-    /*border-radius: 10px;*/
-    /*!*padding: 20px;*!*/
-    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
-    /*backdrop-filter: blur(10px);*/
-    /*-webkit-backdrop-filter: blur(10px);*/
-    /*border: 1px solid rgba(255, 255, 255, 0.3);*/
-    /*position: relative;*/
-    /*z-index: 4;*/
+.top_nav .dropdown-menu li a:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标移入时背景颜色变深 */
+    transform: scale(1.05); /* 鼠标移入时放大 */
+}
+
+.top_nav .dropdown-menu li:last-child a {
+    border-bottom: none;
 }
 
 .top_nav li a i {
@@ -1071,7 +1078,8 @@ h2 {
     -moz-column-break-inside: avoid;
     column-break-inside: avoid;
     opacity: 1;
-    transition: all .2s ease
+    transition: all .2s ease;
+    z-index: 4;
 }
 
 .x_title {
@@ -1605,21 +1613,30 @@ ul.msg_list li a .message {
 }
 
 .dropdown-menu {
-    border: medium none;
-    box-shadow: none;
+    /*border: medium none;*/
+    /*box-shadow: none;*/
+    /*display: none;*/
+    /*float: left;*/
+    /*font-size: 12px;*/
+    /*left: 0;*/
+    /*list-style: none outside none;*/
+    /*padding: 0;*/
+    /*position: absolute;*/
+    /*text-shadow: none;*/
+    /*top: 100%;*/
+    /*z-index: 9998;*/
+    /*border: 1px solid #D9DEE4;*/
+    /*border-top-left-radius: 0;*/
+    /*border-top-right-radius: 0*/
     display: none;
-    float: left;
-    font-size: 12px;
-    left: 0;
-    list-style: none outside none;
-    padding: 0;
-    position: absolute;
-    text-shadow: none;
-    top: 100%;
-    z-index: 9998;
-    border: 1px solid #D9DEE4;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 9998; !important;
 }
 
 .dropdown-menu > li > a {

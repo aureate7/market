@@ -7,10 +7,11 @@ import org.apache.ibatis.annotations.Param;
 import com.example.entity.Ckretire;
 
 /**
- * @Author Binvor
- * @Date 2019年3月28日上午9:36:30
+ * @Author aureate7
+ * @Date 2024年6月4日上午9:36:30
  * @Des 仓库退货
  */
+
 public interface ICkretireService {
 	
     int delete(String inid);

@@ -10,8 +10,8 @@ import com.example.entity.Supply;
 import com.example.service.ISupplyMapperService;
 
 /**
- * @Author Binvor
- * @Date 2019年3月27日上午10:27:30
+ * @Author aureate7
+ * @Date 2024年6月6日上午10:27:30
  * @Des 
  */
 @Service

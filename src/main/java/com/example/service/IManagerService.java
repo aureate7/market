@@ -5,8 +5,8 @@ import org.apache.ibatis.annotations.Param;
 import com.example.entity.Manager;
 
 /**
- * @Author Binvor
- * @Date 2019年4月16日下午1:31:39
+ * @Author aureate7
+ * @Date 2024年6月4日下午1:31:39
  * @Des 
  */
 public interface IManagerService {

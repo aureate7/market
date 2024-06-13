@@ -22,7 +22,11 @@ import com.example.service.imp.KcxxServiceImp;
 import com.example.service.imp.ManagerServiceImp;
 import com.example.service.imp.StaffServiceImp;
 import com.example.tools.Constants;
-
+/*
+ * @Author aureate7
+ * @Date 2024年6月13日上午9:26:55
+ * @
+* */
 @Controller
 @RequestMapping("/manage")
 public class ManagerController {

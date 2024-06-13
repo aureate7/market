@@ -7,8 +7,8 @@ import org.apache.ibatis.annotations.Param;
 import com.example.entity.Type;
 
 /**
- * @Author Binvor
- * @Date 2019年3月25日下午2:24:36
+ * @Author aureate7
+ * @Date 2024年6月4日下午2:24:36
  * @Des  类别管理
  */
 public interface ITypeService {

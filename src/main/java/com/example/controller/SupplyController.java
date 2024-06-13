@@ -24,8 +24,8 @@ import com.example.entity.Supply;
 import com.example.service.imp.SupplyMapperServiceImp;
 
 /**
- * @Author Binvor
- * @Date 2019年3月25日下午2:30:11
+ * @Author aureate7
+ * @Date 2024年6月12日下午2:30:11
  * @Des  客户类别控制器
  */
 @Controller

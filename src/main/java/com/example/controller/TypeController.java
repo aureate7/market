@@ -18,8 +18,8 @@ import com.example.entity.Type;
 import com.example.service.imp.TypeServiceImp;
 
 /**
- * @Author Binvor
- * @Date 2019年3月25日下午2:30:11
+ * @Author aureate7
+ * @Date 2024年6月4日下午2:30:11
  * @Des  商品类别控制器
  */
 @Controller

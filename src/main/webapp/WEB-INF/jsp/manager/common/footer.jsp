@@ -1,6 +1,6 @@
         <footer>
           <h4 class="text-center text-primary">
-          The system was coded by Binvor you can download these codes from git <a href="https://github.com/BinvorWin/market">BinvorWin</a>
+          All right reserved by <a href="https://github.com/aureate7/market">@aureate7</a>
           </h4>
           <div class="clearfix"></div>
         </footer>

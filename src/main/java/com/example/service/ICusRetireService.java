@@ -7,8 +7,8 @@ import org.apache.ibatis.annotations.Param;
 import com.example.entity.CusRetire;
 
 /**
- * @Author Binvor
- * @Date 2019年4月10日下午1:34:21
+ * @Author aureate7
+ * @Date 2024年6月4日下午1:34:21
  * @Des 退货
  */
 public interface ICusRetireService {

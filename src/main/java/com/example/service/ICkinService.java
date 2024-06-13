@@ -7,8 +7,8 @@ import org.apache.ibatis.annotations.Param;
 import com.example.entity.Ckin;
 
 /**
- * @Author Binvor
- * @Date 2019年3月27日下午3:10:49
+ * @Author aureate7
+ * @Date 2024年6月4日下午3:10:49
  * @Des 进货信息
  */
 public interface ICkinService {

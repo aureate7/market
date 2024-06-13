@@ -23,8 +23,8 @@ import com.example.entity.Product;
 import com.example.service.imp.ProductServiceImp;
 
 /**
- * @Author Binvor
- * @Date 2019年3月18日下午3:04:04
+ * @Author aureate7
+ * @Date 2024年6月13日下午3:04:04
  * @Des 
  */
 @Controller

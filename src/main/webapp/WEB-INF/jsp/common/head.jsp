@@ -30,14 +30,16 @@ function get(id) {
         <div class="col-md-3 left_col">  <!-- 左侧导航栏内容Start -->
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="${pageContext.request.contextPath }/staff/flatform/main" class="site_title"><i class="fa fa-paw"></i> <span>Welcome!</span></a>
+              <a href="${pageContext.request.contextPath }/staff/flatform/main" class="site_title">
+                <img src="${pageContext.request.contextPath }/statics/images/logo.png" alt="Logo" style="height: 50px; margin-right: 10px;">
+                <span>Welcome!</span></a>
             </div>
 
             <div class="clearfix"></div>
 
             <!-- menu profile quick info -->
             <div class="profile clearfix">
-               	<h3 class="text-info">用心与你沟通</h3>
+               	<h3 class="text-info">疯了.png</h3>
             </div>
 
             <br />

@@ -16,6 +16,12 @@ import com.github.pagehelper.PageInfo;
 import com.example.entity.Sale;
 import com.example.service.imp.SaleServiceImp;
 
+/**
+ * @Author aureate7
+ * @Date 2024年6月12日下午2:30:11
+ * @Des  商品类别控制器
+ */
+
 @Controller
 @RequestMapping("/staff/flatform/sale")
 public class SaleController {
